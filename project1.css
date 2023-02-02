@@ -1,0 +1,153 @@
+* {
+    margin: ;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: #edf1ed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: rgb(18, 155, 155);
+    padding: 4px 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 600;
+    width: fit-content;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+nav .logo {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    font-weight: 500;
+    gap: 30px;
+    align-items: center;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.search-field {
+    display: flex;
+    gap: 30px;
+}
+
+input {
+    padding: 4px 10px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.hero-section-left {
+    width: 60%;
+    padding: 0 8%;
+}
+
+.hero-section-left h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.hero-section-left h1 span {
+    color: rgb(18, 155, 155);
+    font-weight: 900;
+    font-weight: 2.5 rem;
+
+}
+
+.hero-section-left p {
+    font-weight: 500;
+}
+
+.hero-section-left p span {
+    color: rgb(63, 18, 210);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.hero-section-right {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    gap: 30px;
+   
+}
+
+.hero-right-section-btn {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero-section-right img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+footer {
+    height: 10%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+footer p {
+    font-weight: 600;
+
+}
+
+footer ul {
+    display: flex;
+    gap: 30px;
+}
+footer ul li i:hover{
+    color:white;
+    background-color:orangered;
+}
